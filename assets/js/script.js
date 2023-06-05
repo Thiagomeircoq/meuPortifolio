@@ -58,7 +58,7 @@ const projetos = {
         mysql: true
       },
       buttonDemo: '',
-      buttonRepositorio: 'https://github.com/Thiagomeircoq/pokedex'
+      buttonRepositorio: ''
     },
     catalogoFilmes: {
       img: 'projeto-catalogo-filmes.png',
