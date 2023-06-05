@@ -1,0 +1,128 @@
+@media (max-width: 1210px) {
+    .container .infos-bar {
+        position: absolute;
+        transform: translateX(-100%);
+    }
+
+    .mobile-topbar {
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+        transform: translate(0);
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 935px) {
+    .home {
+        margin-top: 77px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .home .home-text{
+        width: 100%;
+    }
+
+    .home .home-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .home-image img {
+        width: 80%;
+    }
+
+    .home .home-text h1 {
+        font-size: 39px;
+    }
+
+    .home .home-text span {
+        width: 100%;
+    }
+
+    .container .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card .card-image img {
+        width: 100%;
+    }
+
+    .sobre .sobre-content {
+        flex-direction: column;
+    }
+
+    .sobre .sobre-content .sobre-image {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .sobre .sobre-content .sobre-image img {
+        width: 100%;
+    }
+
+    .sobre .sobre-content .sobre-text {
+        width: 100%;
+    }
+
+    .balloon {
+        position: absolute;
+        right: -20px;
+        width: 70%;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 0;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .contato-content {
+        flex-direction: column;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .buttons .button {
+        color: var(--colors-color-background);
+        display: flex;
+        width: 50%;
+        align-items: center;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .contato-content .contato-text {
+        width: 100%;
+    }
+}
+
+@media (max-height: 770px) {
+    .infos-bar .skills-info-bar {
+        margin-top: 10px;
+        padding: 0px 25px;
+        height: 340px;
+        overflow: auto;
+    }
+}
