@@ -107,7 +107,7 @@ const projetos = {
         mysql: true
       },
       buttonDemo: '',
-      buttonRepositorio: 'https://github.com/Thiagomeircoq/pokedex'
+      buttonRepositorio: 'https://github.com/Thiagomeircoq/chatOnline'
     },
     calculadora: {
         img: 'projeto-calculadora.png',
