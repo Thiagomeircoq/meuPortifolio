@@ -285,7 +285,7 @@ function playVideo(videoProjeto) {
 
   const iframe = document.createElement('iframe');
   iframe.src = `https://www.youtube.com/embed/${videoProjeto}`
-  iframe.classList.add('movie-trailer');
+  iframe.classList.add('projects-video');
   iframe.allowFullscreen = true;
 
   const body = document.getElementsByTagName('body')[0];
