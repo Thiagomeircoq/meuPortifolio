@@ -22,7 +22,7 @@
     .home {
         margin-top: 77px;
         flex-direction: column;
-        gap: 30px;
+        gap: 70px;
     }
 
     .home .home-text{
@@ -36,7 +36,7 @@
     }
 
     .home .home-image img {
-        width: 80%;
+        width: 70%;
     }
 
     .home .home-text h1 {
@@ -75,10 +75,11 @@
 
     .balloon {
         position: absolute;
-        right: -20px;
-        width: 70%;
+        width: 80%;
+        right: 0px;
+        top: -40px;
     }
-
+  
     .video-container {
         width: 100%;
     }
@@ -121,6 +122,18 @@
 
     .contato-content .contato-text {
         width: 100%;
+    }
+
+    .terra {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 164px;
+        z-index: 1;
+    }
+
+    .my-projects {
+        padding: 100px 0px;
     }
 }
 

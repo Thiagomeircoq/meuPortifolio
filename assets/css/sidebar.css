@@ -85,6 +85,25 @@
     height: 100%;
 }
 
+.infos-bar .skills-info-bar .scrollbar {
+    padding: 10px;
+}
+
+.infos-bar .skills-info-bar .scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.infos-bar .skills-info-bar .scrollbar::-webkit-scrollbar-track {
+    background-color: var(--colors-grey-900);
+    border-radius: 6px;
+}
+
+.infos-bar .skills-info-bar .scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--colors-grey-950);
+    border-radius: 6px;
+}
+
+
 .infos-bar .skills-info-bar .scrollbar{
     overflow: auto;
     height: 100%;
@@ -162,11 +181,11 @@
     font-weight: 600;
     letter-spacing: .2em;
     font-size: 12px;
-    color: var(--colors-grey-200);
+    color: var(--colors-ignite-light);
 }
 
 .infos-bar .skills-info-bar .download-curriculo a:hover{
-    color: var(--colors-grey-100);
+    color: var(--colors-ignite-mid);
 }
 
 .infos-bar .infos-footer {

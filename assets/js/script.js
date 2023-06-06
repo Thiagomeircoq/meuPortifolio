@@ -160,6 +160,7 @@ async function criarEstrutura(projeto) {
     const overlay = document.createElement('span');
     const cardImage = document.createElement('div');
     const img = document.createElement('img');
+    const iconGitHub = document.createElement('i');
 
     const cardContent = document.createElement('div');
     const nameProjeto = document.createElement('h2');
@@ -179,6 +180,7 @@ async function criarEstrutura(projeto) {
     cardImage.classList.add('card-image');
     img.classList.add('card-img');
     iconPlay.classList.add('fa-solid', 'fa-circle-play');
+    iconGitHub.classList.add('fa-brands', 'fa-github');
 
     cardContent.classList.add('card-content');
     nameProjeto.classList.add('name');
@@ -207,6 +209,7 @@ async function criarEstrutura(projeto) {
     buttons.appendChild(buttonRepos);
     buttonDemo.appendChild(spanButton);
     buttonRepos.appendChild(spanButton2);
+    buttonRepos.appendChild(iconGitHub);
 
     img.src = 'assets/img/' + projeto.img;
     nameProjeto.innerText = projeto.title;
@@ -227,7 +230,7 @@ async function criarEstrutura(projeto) {
       buttonRepos.href = projeto.buttonRepositorio;
     }
     spanButton.innerText = 'Visitar o Site';
-    spanButton2.innerText = 'Ir ao repositorio';
+    spanButton2.innerText = 'repositório';
     
     let tecnologias = projeto.tecnologias;
     for (let tecnologia in tecnologias) {
@@ -299,7 +302,7 @@ function playVideo(videoProjeto) {
 
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 1,
-    spaceBetween: 25,
+    spaceBetween: 100,
     loop: true,
     centerSlide: true,
     fade: true,
