@@ -234,6 +234,11 @@
     animation-delay: 0.4s;
 }
 
+.progress#progress-laravel {
+    width: 65%;
+    animation-delay: 0.4s;
+}
+
 @keyframes progress {
     0% {
         width: 0;
