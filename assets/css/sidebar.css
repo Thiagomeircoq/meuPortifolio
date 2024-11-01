@@ -82,11 +82,12 @@
 .infos-bar .skills-info-bar {
     margin-top: 10px;
     padding: 0px 25px;
-    height: 100%;
+    height: 65%;
+    overflow: auto;
 }
 
 .infos-bar .skills-info-bar .scrollbar {
-    padding: 10px;
+    padding: 15px;
 }
 
 .infos-bar .skills-info-bar .scrollbar::-webkit-scrollbar {
@@ -148,7 +149,7 @@
 .infos-bar .skills-info-bar .skills-bars{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 
@@ -214,30 +215,7 @@
     color: var(--colors-grey-100);
 }
 
-.progress#progress-html {
-    width: 55%;
-    animation-delay: 0.1s;
-}
 
-.progress#progress-css {
-    width: 60%; 
-    animation-delay: 0.2s;
-}
-
-.progress#progress-js {
-    width: 65%;
-    animation-delay: 0.3s;
-}
-
-.progress#progress-php {
-    width: 65%;
-    animation-delay: 0.4s;
-}
-
-.progress#progress-laravel {
-    width: 65%;
-    animation-delay: 0.4s;
-}
 
 @keyframes progress {
     0% {
